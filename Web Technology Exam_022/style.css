@@ -1,0 +1,248 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    padding: 30px;
+    height: 100vh;
+    width: 98%;
+    background-image: url(./hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.navigation{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul li{
+    margin: 10px;
+
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: x-large;
+    padding: 10px;
+    color: white;
+}
+.nav-bar ul li a:hover{
+    color: rgb(217, 178, 4);
+    transition: 0.3s;
+}
+.logo{
+    height: 200px;
+    
+
+}
+.logo img{
+    width: 100px;
+    
+}
+.content{
+    color: white;
+}
+.content h1{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-style: italic;
+    font-size: xx-large;
+}
+.content p{
+    font-size: large;
+    padding-left: 10px;
+}
+.btn{
+    color: white;
+    padding-top: 100px;
+    padding-left: 200px;
+
+}
+.btn a{
+    color: white;
+    border: 1px solid rgb(163, 163, 0);
+    padding: 10px 50px 10px;
+    text-decoration: none;
+    font-size:x-large;
+    border-radius: 25px;
+    background-color:rgba(163, 163, 0,0.5) ;
+}
+.btn a:hover{
+    background-color:rgba(163, 163, 0,1) ;
+    transition: 0.5s;
+}
+.right{
+    padding-right: 20px;
+    display: flex;
+}
+.right i{
+    padding-right: 30px;
+    color: white;
+    font-size: large;
+}
+.right i:hover{
+    color: rgb(217, 178, 4);
+    transition: 0.3s;
+}
+.right-btn a{
+    background-color:rgba(163, 163, 0,0.5) ;
+    border: 1px solid rgb(163, 163, 0);
+    color: white;
+    text-decoration: none;
+    font-size:x-large;
+    border-radius: 25px;
+    padding: 10px 50px 10px;
+}
+.right-btn a:hover{
+    background-color:rgba(163, 163, 0,1) ;
+    transition: 0.5s;
+}
+/* --------------------------------------------------------------- */
+.offer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60vh;
+}
+.offer-1{
+    flex-basis: 47%;
+    display: flex;
+    /* justify-content:space-between; */
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 45vh;
+    background-color: rgb(94, 94, 94);
+}
+.offer-1 img{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 7px solid yellow;
+    border-radius: 50%;
+    display: block;   
+}
+
+.offer-1-txt{
+    /* flex-basis: 48%; */
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.offer-1-txt p{
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+}
+.offer-1-txt h1{
+    font-size: 40px;
+    font-style: italic;
+    color: white;  
+}
+.offer-1-txt h1:hover{
+    font-size: 45px;
+    color: rgb(192, 192, 8);
+}
+.offer-1-txt a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(163, 163, 0);
+}
+.offer-1-btn{
+    background-color:rgba(163, 163, 0,0.5) ;
+    border: 1px solid rgb(163, 163, 0);
+    color: white;
+    text-decoration: none;
+    font-size:x-large;
+    border-radius: 25px;
+    padding: 10px 50px 10px;
+}
+.offer-1-btn:hover{
+    background-color:rgba(163, 163, 0,1) ;
+    transition: 0.5s;
+}
+/* -------------------------------------------------------------- */
+.offer-2{
+    display: flex;
+    flex-basis: 47%;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 45vh;
+    background-color: rgb(94, 94, 94);
+}
+.offer-2 img{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 7px solid yellow;
+    border-radius: 50%;
+    display: block;
+}
+.offer-2-txt{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.offer-2-txt p{
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+}
+.offer-2-txt h1{
+    font-size: 40px;
+    font-style: italic;
+    color: white;  
+}
+.offer-2-txt h1:hover{
+    font-size: 45px;
+    color: rgb(192, 192, 8);
+}
+.offer-2-txt a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(163, 163, 0);
+}
+.offer-2-btn{
+    background-color:rgba(163, 163, 0,0.5) ;
+    border: 1px solid rgb(163, 163, 0);
+    color: white;
+    text-decoration: none;
+    font-size:x-large;
+    border-radius: 25px;
+    padding: 15px 50px 10px;
+}
+.offer-2-btn:hover{
+    background-color:rgba(163, 163, 0,1) ;
+    transition: 0.5s;
+}
+/* -------------------------------------------------------------------- */
+.about-us{
+    height: 30vh;
+}
+.about-us h1{
+    text-align: center;
+    font-weight: 800;
+
+}
+.about-us p{
+    text-align: center;
+    font-weight: 400;
+}
+.about-us span{
+    padding-left: 47%;
+}
+.about-us span i{
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+}
